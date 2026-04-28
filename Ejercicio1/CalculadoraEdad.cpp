@@ -8,10 +8,10 @@ int main(){
     cin >> edad;
 
     if (edad >= 18){
-        cout <<"Puede pasar";
+        cout <<"Usted es MAYOR de edad";
     }
     else {
-        cout << "NO puede pasar";
+        cout << "Usted es MENOR de edad";
         
     }
 
