@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    double velocidad;
+    float velocidad;
 
     //pedir al ususario la velocidad
     cout <<"ingrese la velocidad en km/h: ";
@@ -20,5 +20,8 @@ int main(){
         cout <<"Tiene una multa LEVE";
     }
 
+
+
     return 0;
+    
 }

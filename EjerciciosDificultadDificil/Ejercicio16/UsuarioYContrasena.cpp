@@ -11,19 +11,22 @@ int main(){
 
     while(contador < 3) {
 
-    //pedir al ususario sus datos
-    cout <<"Ingrese su usuario: ";
+    
+    cout <<"Ingrese su usuario: ";    
     cin >> usuarioprueba;
 
     cout <<"Ingrese la contrasena: ";
     cin >> contrasenaprueba;
 
     if (usuario == usuarioprueba && contrasena == contrasenaprueba){
-        cout <<"El usuario y la contrasena COINCIDEN";
+        cout <<"***************************BIENVENIDO INGENIERO**************************";
         break;
     }
     
-    
+    else if (contador == 3){
+        cout <<"LLEGASTE AL LIMITE DE INTENTOS." << endl;
+        break;
+}
     else {
         contador ++;
         cout <<"DATOS INCORRECTOS, te quedan " << 3 - contador << " intentos" << endl;
@@ -31,9 +34,7 @@ int main(){
 
 }
 
-if (contador == 3){
-        cout <<"LLEGASTE AL LIMITE DE INTENTOS." << endl;
-}
+
 
 return 0;
 }

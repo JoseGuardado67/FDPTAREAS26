@@ -13,7 +13,7 @@ int main (){
     cout<<"Cuantos anos de experiencia tienes conduciendo?: ";
     cin>> experiencia;
 
-    if (edad <18){
+    if (edad <18){     
         cout<<"NO APTO PARA CONDUCIR"<<endl;
     }
 
