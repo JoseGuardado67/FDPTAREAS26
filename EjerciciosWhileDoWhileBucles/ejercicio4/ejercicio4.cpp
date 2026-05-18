@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int contador, num1, num2, op = 0;
+    int num1, num2, op= 0;
     float resultado;
 
     while (op!=3)
